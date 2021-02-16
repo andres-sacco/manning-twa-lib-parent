@@ -1,5 +1,7 @@
 # TWA - Parent Pom
 
+[![Build Status](https://travis-ci.com/andres-sacco/manning-twa-lib-parent.svg?branch=main)](https://travis-ci.com/andres-sacco/manning-twa-lib-parent) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=andres-sacco_manning-twa-libs-dto&metric=alert_status)](https://sonarcloud.io/dashboard?id=andres-sacco_manning-twa-libs-parent) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=andres-sacco_manning-twa-libs-parent&metric=coverage)](https://sonarcloud.io/dashboard?id=andres-sacco_manning-twa-libs-parent) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This file contains all the plugins or dependencies that are common for all the projects related with TWA.
 
 ### General information

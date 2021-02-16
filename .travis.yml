@@ -1,0 +1,12 @@
+language: java
+
+cache:
+  directories:
+    - "$HOME/.m2"
+    - "$HOME/.sonar"
+
+script:
+  - mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
+
+jdk: 
+  - openjdk11

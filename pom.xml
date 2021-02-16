@@ -46,6 +46,11 @@
         <bintray.subject>twa</bintray.subject>
         <bintray.repo>repository</bintray.repo>
         <bintray.package>flights-parent</bintray.package>
+        
+        <!-- Sonar -->
+		<sonar.projectKey>andres-sacco_manning-twa-lib-parent</sonar.projectKey>
+		<sonar.organization>adschosen-github</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
     <build>
