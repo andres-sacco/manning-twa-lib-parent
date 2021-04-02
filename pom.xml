@@ -42,11 +42,6 @@
         <formatter-maven-plugin.version>2.8.1</formatter-maven-plugin.version>
         <maven-enforcer-plugin.version>3.0.0-M3</maven-enforcer-plugin.version>
         
-        <!-- Artifactory -->
-        <bintray.subject>twa</bintray.subject>
-        <bintray.repo>repository</bintray.repo>
-        <bintray.package>flights-parent</bintray.package>
-        
         <!-- Sonar -->
 		<sonar.projectKey>andres-sacco_manning-twa-lib-parent</sonar.projectKey>
 		<sonar.organization>adschosen-github</sonar.organization>
@@ -266,10 +261,16 @@
 			</plugin>
         </plugins>
     </build>
-    <distributionManagement>
+	<repositories>
+		<repository>
+			<id>maven2</id>
+			<name>maven2</name>
+			<url>https://repo.maven.apache.org/maven2</url>
+		</repository>
 	    <repository>
 	        <id>central</id>
+	        <name>a0lx370ow2mnw-artifactory-primary-0-releases</name>
 	        <url>https://manning.jfrog.io/artifactory/manning-twa</url>
 	    </repository>
-    </distributionManagement>  
+	</repositories>
 </project>
