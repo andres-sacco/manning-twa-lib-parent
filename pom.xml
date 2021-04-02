@@ -267,10 +267,10 @@
         </plugins>
     </build>
     <distributionManagement>
-        <repository>
-            <id>bintray-twa-repository</id>
-            <name>twa-repository</name>
-            <url>https://api.bintray.com/maven/${bintray.subject}/${bintray.repo}/${bintray.package}/;publish=1</url>
-        </repository>
+	    <repository>
+	        <id>central</id>
+	        <name>a0lx370ow2mnw-artifactory-primary-0-releases</name>
+	        <url>https://manning.jfrog.io/artifactory/manning-twa</url>
+	    </repository>
     </distributionManagement>  
 </project>
