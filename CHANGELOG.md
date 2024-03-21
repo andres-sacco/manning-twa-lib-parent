@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.1.0
+- Increment the version of Java
+
 ## 1.0.5
 - Add jacoco configuration
 
