@@ -4,7 +4,7 @@
 
     <groupId>com.twa.flights.common</groupId>
     <artifactId>flights-parent</artifactId>
-    <version>1.1.0</version>
+    <version>1.1.0-SNAPSHOT</version>
     <name>flights-parent</name>
     <description>All the things common in all the projects</description>
     <packaging>pom</packaging>
@@ -50,10 +50,9 @@
 
     <scm>
         <connection>scm:git:git@github.com:andres-sacco/manning-twa-lib-parent.git</connection>
-        <url>https://github.com/andres-sacco/manning-twa-lib-parent.git</url>
+        <url>git@github.com:andres-sacco/manning-twa-lib-parent.git</url>
         <developerConnection>scm:git:git@github.com:andres-sacco/manning-twa-lib-parent.git}</developerConnection>
-      <tag>flights-parent-1.1.0</tag>
-  </scm>
+    </scm>
 
     <build>
         <pluginManagement>
