@@ -41,13 +41,12 @@
         <skip.surefire.tests>false</skip.surefire.tests>
         <formatter-maven-plugin.version>2.23.0</formatter-maven-plugin.version>
         <maven-enforcer-plugin.version>3.4.1</maven-enforcer-plugin.version>
-        
+
         <!-- Sonar -->
 		<sonar.projectKey>andres-sacco_manning-twa-lib-parent</sonar.projectKey>
 		<sonar.organization>adschosen-github</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
-
 
     <build>
         <pluginManagement>
@@ -293,7 +292,7 @@
 	   <repository>
 	     <id>manning-twa-lib-parent</id>
 	     <name>Repository of parent pom</name>
-	     <url>https://mymavenrepo.com/repo/9lCyx3X47eTPtjxi1FA8/</url>
+	     <url>https://mymavenrepo.com/repo/tJqfV65wRD0LL9UcK4CQ</url>
 	   </repository>
 	</repositories>
 </project>
